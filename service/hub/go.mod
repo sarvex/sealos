@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/cesanta/glog v0.0.0-20150527111657-22eb27a0ae19
-	github.com/docker/distribution v2.8.1+incompatible
+	github.com/docker/distribution v2.8.2+incompatible
 	github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7
 	github.com/labring/sealos v0.0.0
 	github.com/labring/sealos/controllers/imagehub v0.0.0
