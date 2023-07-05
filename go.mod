@@ -7,8 +7,8 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/casdoor/casdoor-go-sdk v0.4.1
 	github.com/containerd/containerd v1.6.8
-	github.com/containers/buildah v1.28.1
-	github.com/containers/common v0.50.1
+	github.com/containers/buildah v1.27.3
+	github.com/containers/common v0.49.3
 	github.com/containers/image/v5 v5.23.0
 	github.com/containers/ocicrypt v1.1.5
 	github.com/containers/storage v1.43.0
@@ -23,8 +23,7 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/imdario/mergo v0.3.13
 	github.com/jaevor/go-nanoid v1.3.0
-	github.com/labring/endpoints-operator/library v0.0.0-20220819031233-733d330beaea
-	github.com/labring/image-cri-shim v0.0.0
+	github.com/labring/image-cri-shim v0.0.0-00010101000000-000000000000
 	github.com/labring/lvscare v0.0.0
 	github.com/labring/sealos/controllers/imagehub v0.0.0
 	github.com/mitchellh/go-homedir v1.1.0
@@ -44,11 +43,11 @@ require (
 	github.com/wechatpay-apiv3/wechatpay-go v0.2.14
 	go.uber.org/zap v1.24.0
 	golang.org/x/crypto v0.1.0
-	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783
+	golang.org/x/oauth2 v0.4.0
 	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.3.0
-	golang.org/x/term v0.3.0
-	google.golang.org/grpc v1.50.1
+	golang.org/x/sys v0.4.0
+	golang.org/x/term v0.4.0
+	google.golang.org/grpc v1.53.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.9.1
@@ -72,7 +71,6 @@ require (
 	github.com/Microsoft/hcsshim v0.9.5 // indirect
 	github.com/VividCortex/ewma v1.2.0 // indirect
 	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d // indirect
-	github.com/aliyun/alibaba-cloud-sdk-go v1.62.198 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver v3.5.1+incompatible // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
@@ -181,7 +179,6 @@ require (
 	github.com/vbauerster/mpb/v7 v7.5.3 // indirect
 	github.com/vishvananda/netlink v1.1.1-0.20210330154013-f5de75959ad5 // indirect
 	github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74 // indirect
-	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
@@ -192,12 +189,12 @@ require (
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	golang.org/x/net v0.3.1-0.20221206200815-1e63c2f08a10 // indirect
-	golang.org/x/text v0.5.0 // indirect
+	golang.org/x/net v0.5.0 // indirect
+	golang.org/x/text v0.6.0 // indirect
 	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20221024183307-1bc688fe9f3e // indirect
+	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
