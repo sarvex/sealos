@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/go-logr/logr v1.2.3
 	github.com/labring/sealos e95d2cb4d09d
-	github.com/labring/sealos/controllers/infra v0.0.0-20230426063716-d57b729566c8
+	github.com/labring/sealos/controllers/infra e95d2cb4d09d
 	github.com/labring/sealos/controllers/metering v0.0.0-00010101000000-000000000000
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.26.0
