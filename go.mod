@@ -63,7 +63,7 @@ require (
 	k8s.io/kube-proxy v0.25.6
 	k8s.io/kubectl v0.26.0
 	k8s.io/kubelet v0.25.6
-	k8s.io/kubernetes v1.25.6
+	k8s.io/kubernetes v1.25.11
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 	sigs.k8s.io/controller-runtime v0.13.0
 	sigs.k8s.io/kustomize/kyaml v0.13.9

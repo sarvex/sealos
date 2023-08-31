@@ -33,7 +33,7 @@ require (
 	k8s.io/cri-api v0.27.1
 	k8s.io/kube-proxy v0.25.6
 	k8s.io/kubelet v0.25.6
-	k8s.io/kubernetes v1.25.6
+	k8s.io/kubernetes v1.25.11
 	sigs.k8s.io/yaml v1.3.0
 )
 
