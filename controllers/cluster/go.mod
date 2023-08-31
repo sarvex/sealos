@@ -179,7 +179,7 @@ require (
 )
 
 require (
-	github.com/labring/sealos v0.0.0-00010101000000-000000000000
+	github.com/labring/sealos e95d2cb4d09d
 	github.com/labring/sealos/controllers/infra v0.0.0
 )
 
