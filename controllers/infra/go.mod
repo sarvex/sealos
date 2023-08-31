@@ -12,7 +12,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/labring/operator-sdk v1.0.1
 	github.com/labring/sealos e95d2cb4d09d
-	github.com/labring/sealos/controllers/cluster v0.0.0-00010101000000-000000000000
+	github.com/labring/sealos/controllers/cluster e95d2cb4d09d
 	github.com/labring/sealos/controllers/common v0.0.0-20230714032528-db75b6ad462c
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.27.8
