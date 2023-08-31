@@ -48,10 +48,10 @@ require (
 	github.com/wechatpay-apiv3/wechatpay-go v0.2.14
 	go.mongodb.org/mongo-driver v1.11.3
 	go.uber.org/zap v1.24.0
-	golang.org/x/crypto v0.10.0
+	golang.org/x/crypto v0.12.0
 	golang.org/x/sync v0.2.0
-	golang.org/x/sys v0.9.0
-	golang.org/x/term v0.9.0
+	golang.org/x/sys v0.11.0
+	golang.org/x/term v0.11.0
 	golang.org/x/time v0.3.0
 	google.golang.org/grpc v1.55.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
@@ -249,7 +249,7 @@ require (
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/net v0.10.0 // indirect
 	golang.org/x/oauth2 v0.8.0 // indirect
-	golang.org/x/text v0.10.0 // indirect
+	golang.org/x/text v0.12.0 // indirect
 	golang.org/x/tools v0.9.3 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
