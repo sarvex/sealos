@@ -9,9 +9,9 @@ require (
 	github.com/containerd/containerd v1.7.5
 	github.com/containers/buildah v1.30.0
 	github.com/containers/common v0.53.0
-	github.com/containers/image/v5 v5.25.1-0.20230605120906-abe51339f34d
+	github.com/containers/image/v5 v5.27.0
 	github.com/containers/ocicrypt v1.1.7
-	github.com/containers/storage v1.46.2-0.20230530174214-1dc289a244ce
+	github.com/containers/storage v1.48.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/docker/docker v24.0.2+incompatible
 	github.com/docker/go-units v0.5.0
@@ -73,6 +73,7 @@ require (
 require k8s.io/cri-api v0.27.1 // indirect
 
 require (
+	dario.cat/mergo v1.0.0 // indirect
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/MakeNowJust/heredoc v1.0.0 // indirect
@@ -124,7 +125,7 @@ require (
 	github.com/go-openapi/runtime v0.26.0 // indirect
 	github.com/go-openapi/spec v0.20.9 // indirect
 	github.com/go-openapi/strfmt v0.21.7 // indirect
-	github.com/go-openapi/swag v0.22.3 // indirect
+	github.com/go-openapi/swag v0.22.4 // indirect
 	github.com/go-openapi/validate v0.22.1 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
@@ -154,7 +155,7 @@ require (
 	github.com/jinzhu/copier v0.3.5 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.16.5 // indirect
+	github.com/klauspost/compress v1.16.6 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.4 // indirect
 	github.com/klauspost/pgzip v1.2.6 // indirect
 	github.com/kr/fs v0.1.0 // indirect
@@ -212,11 +213,11 @@ require (
 	github.com/shopspring/decimal v1.3.1 // indirect
 	github.com/sigstore/fulcio v1.3.1 // indirect
 	github.com/sigstore/rekor v1.2.2-0.20230601122533-4c81ff246d12 // indirect
-	github.com/sigstore/sigstore v1.6.5 // indirect
+	github.com/sigstore/sigstore v1.7.1 // indirect
 	github.com/smartystreets/goconvey v1.8.0 // indirect
 	github.com/spf13/cast v1.5.1 // indirect
 	github.com/stefanberger/go-pkcs11uri v0.0.0-20201008174630-78d3cae3a980 // indirect
-	github.com/sylabs/sif/v2 v2.11.4 // indirect
+	github.com/sylabs/sif/v2 v2.11.5 // indirect
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 // indirect
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
 	github.com/theupdateframework/go-tuf v0.5.2 // indirect
@@ -247,8 +248,8 @@ require (
 	golang.org/x/arch v0.3.0 // indirect
 	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1 // indirect
 	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/net v0.10.0 // indirect
-	golang.org/x/oauth2 v0.8.0 // indirect
+	golang.org/x/net v0.11.0 // indirect
+	golang.org/x/oauth2 v0.9.0 // indirect
 	golang.org/x/text v0.12.0 // indirect
 	golang.org/x/tools v0.9.3 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
