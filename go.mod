@@ -41,7 +41,7 @@ require (
 	golang.org/x/sync v0.4.0
 	golang.org/x/sys v0.12.0
 	golang.org/x/term v0.11.0
-	google.golang.org/grpc v1.55.0
+	google.golang.org/grpc v1.56.3
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.11.2
