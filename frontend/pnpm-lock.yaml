@@ -58,8 +58,8 @@ importers:
         specifier: ^4.35.3
         version: 4.35.3(react-dom@18.2.0)(react@18.2.0)
       axios:
-        specifier: ^1.5.1
-        version: 1.5.1
+        specifier: ^1.6.0
+        version: 1.6.0
       clsx:
         specifier: ^1.2.1
         version: 1.2.1
@@ -194,8 +194,8 @@ importers:
         specifier: ^0.18.1
         version: 0.18.1
       axios:
-        specifier: ^1.5.1
-        version: 1.5.1
+        specifier: ^1.6.0
+        version: 1.6.0
       dayjs:
         specifier: ^1.11.10
         version: 1.11.10
@@ -248,8 +248,8 @@ importers:
         specifier: ^4.35.3
         version: 4.35.3(react-dom@18.2.0)(react@18.2.0)
       axios:
-        specifier: 1.4.0
-        version: 1.4.0
+        specifier: 1.6.0
+        version: 1.6.0
       clsx:
         specifier: ^1.2.1
         version: 1.2.1
@@ -321,8 +321,8 @@ importers:
         specifier: ^5.2.1
         version: 5.2.1
       axios:
-        specifier: ^1.5.1
-        version: 1.5.1
+        specifier: ^1.6.0
+        version: 1.6.0
       dayjs:
         specifier: ^1.11.10
         version: 1.11.10
@@ -445,8 +445,8 @@ importers:
         specifier: ^4.35.3
         version: 4.35.3(react-dom@18.2.0)(react@18.2.0)
       axios:
-        specifier: 1.2.1
-        version: 1.2.1
+        specifier: 1.6.0
+        version: 1.6.0
       clsx:
         specifier: ^1.2.1
         version: 1.2.1
@@ -533,8 +533,8 @@ importers:
         specifier: ^4.35.5
         version: 4.35.5(@tanstack/react-query@4.35.3)
       axios:
-        specifier: 1.2.1
-        version: 1.2.1
+        specifier: 1.6.0
+        version: 1.6.0
       date-fns:
         specifier: ^2.30.0
         version: 2.30.0
@@ -651,8 +651,8 @@ importers:
         specifier: ^5.2.1
         version: 5.2.1
       axios:
-        specifier: ^1.5.1
-        version: 1.5.1
+        specifier: ^1.6.0
+        version: 1.6.0
       cron-parser:
         specifier: ^4.9.0
         version: 4.9.0
@@ -793,8 +793,8 @@ importers:
         specifier: ^5.2.1
         version: 5.2.1
       axios:
-        specifier: ^1.5.1
-        version: 1.5.1
+        specifier: ^1.6.0
+        version: 1.6.0
       date-fns:
         specifier: ^2.30.0
         version: 2.30.0
@@ -923,8 +923,8 @@ importers:
         specifier: ^4.35.3
         version: 4.35.3(react-dom@18.2.0)(react@18.2.0)
       axios:
-        specifier: 1.2.1
-        version: 1.2.1
+        specifier: 1.6.0
+        version: 1.6.0
       clsx:
         specifier: ^1.2.1
         version: 1.2.1
@@ -1032,8 +1032,8 @@ importers:
         specifier: ^5.2.1
         version: 5.2.1
       axios:
-        specifier: ^1.5.1
-        version: 1.5.1
+        specifier: ^1.6.0
+        version: 1.6.0
       date-fns:
         specifier: ^2.30.0
         version: 2.30.0
@@ -1177,8 +1177,8 @@ importers:
         specifier: 4.21.17
         version: 4.21.17(@babel/runtime@7.23.1)(@codemirror/autocomplete@6.9.1)(@codemirror/language@6.9.1)(@codemirror/lint@6.4.2)(@codemirror/search@6.5.4)(@codemirror/state@6.2.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.20.2)(codemirror@6.0.1)(react-dom@18.2.0)(react@18.2.0)
       axios:
-        specifier: ^1.5.1
-        version: 1.5.1
+        specifier: ^1.6.0
+        version: 1.6.0
       cron-parser:
         specifier: ^4.9.0
         version: 4.9.0
@@ -1325,8 +1325,8 @@ importers:
         specifier: ^4.35.3
         version: 4.35.3(react-dom@18.2.0)(react@18.2.0)
       axios:
-        specifier: 1.2.1
-        version: 1.2.1
+        specifier: 1.6.0
+        version: 1.6.0
       clsx:
         specifier: ^1.2.1
         version: 1.2.1
@@ -3956,6 +3956,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -6926,28 +6927,8 @@ packages:
     resolution: {integrity: sha512-/dlp0fxyM3R8YW7MFzaHWXrf4zzbr0vaYb23VBFCl83R7nWNPg/yaQw2Dc8jzCMmDVLhSdzH8MjrsuIUuvX+6g==}
     engines: {node: '>=4'}
 
-  /axios@1.2.1:
-    resolution: {integrity: sha512-I88cFiGu9ryt/tfVEi4kX2SITsvDddTajXTOFmt2uK1ZVA8LytjtdeyefdQWEf5PU8w+4SSJDoYnggflB5tW4A==}
-    dependencies:
-      follow-redirects: 1.15.3
-      form-data: 4.0.0
-      proxy-from-env: 1.1.0
-    transitivePeerDependencies:
-      - debug
-    dev: false
-
-  /axios@1.4.0:
-    resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
-    dependencies:
-      follow-redirects: 1.15.3
-      form-data: 4.0.0
-      proxy-from-env: 1.1.0
-    transitivePeerDependencies:
-      - debug
-    dev: false
-
-  /axios@1.5.1:
-    resolution: {integrity: sha512-Q28iYCWzNHjAm+yEAot5QaAMxhMghWLFVf7rRdwhUI+c2jix2DUXjAHXVi+s1ibs3mjPO/cCgbA++3BjD0vP/A==}
+  /axios@1.6.0:
+    resolution: {integrity: sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==}
     dependencies:
       follow-redirects: 1.15.3
       form-data: 4.0.0
@@ -11172,6 +11153,7 @@ packages:
 
   /jose@4.14.6:
     resolution: {integrity: sha512-EqJPEUlZD0/CSUMubKtMaYUOtWe91tZXTWMJZoKSbLk+KtdhNdcvppH8lA9XwVu2V4Ailvsj0GBZJ2ZwDjfesQ==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -11781,6 +11763,7 @@ packages:
 
   /memory-pager@1.5.0:
     resolution: {integrity: sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -12664,6 +12647,7 @@ packages:
   /object-hash@2.2.0:
     resolution: {integrity: sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==}
     engines: {node: '>= 6'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -12753,6 +12737,7 @@ packages:
   /oidc-token-hash@5.0.3:
     resolution: {integrity: sha512-IF4PcGgzAr6XXSff26Sk/+P4KZFJVuHAJZj3wgO3vX2bMdNVp/QXTP3P7CEm9V1IdG8lDLY3HhiqpsE/nOwpPw==}
     engines: {node: ^10.13.0 || >=12.0.0}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -14083,6 +14068,7 @@ packages:
 
   /sparse-bitfield@3.0.3:
     resolution: {integrity: sha512-kvzhi7vqKTfkh0PZU+2D2PIllw2ymqJKujUcyPMd9Y75Nv4nPbGJZXNhxsgdQab2BmlDct1YnfQCguEvHr7VsQ==}
+    requiresBuild: true
     dependencies:
       memory-pager: 1.5.0
     dev: false
